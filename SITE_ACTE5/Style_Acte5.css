@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background: linear-gradient(to bottom,#141414,rgb(53, 8, 53));
+  background-color: #141414;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+body .page{
+  margin: 20px 80px;
+}
+/* Barre de navigation */
+nav{
+  background: none;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  position:sticky;
+  top: 0;
+  background-color: #141414;
+  padding: 10px 0px;
+}
+
+
+.maps1{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.maps1 .content .card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom:20px;
+}
+.maps1 .content .card .left{
+ flex: 0 0 30%;
+ padding: 20px;
+ background-color:rgb(82, 74, 74);
+ color:#fff;
+}
+.maps1 .content .card .right img{
+  height:300px;
+  width: 400px;
+  margin-top: 5px;
+}
+.maps2{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.maps2 .content .card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom:20px;
+}
+.maps2 .content .card .left{
+ flex: 0 0 30%;
+ padding: 20px;
+ background-color:rgb(82, 74, 74);
+ color:#fff;
+}
+.maps2 .content .card .right img{
+  height:300px;
+  width: 400px;
+  margin-top: 5px;
+}
+.maps3{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.maps3 .content .card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom:20px;
+}
+.maps3 .content .card .left{
+ flex: 0 0 30%;
+ padding: 20px;
+ background-color:rgb(82, 74, 74);
+ color:#fff;
+}
+.maps3 .content .card .right img{
+  height:300px;
+  width: 400px;
+  margin-top: 5px;
+}
+
+
+nav .onglets{
+  background: url();
+  color: white;
+  display:flex;
+  flex-wrap:wrap;
+  margin-top: 5px;
+}
+nav .onglets{
+  color: white;
+  display:flex;
+  flex-wrap:wrap;
+}
+h2{
+  padding: 30px;
+  margin: 100px;
+  background-position: 110px;
+  background-position-x:left;
+  background-color: rgba(248, 177, 219, 0.24);
+  display:flex;
+  flex-wrap:wrap;
+  margin-top: 5px;
+  font-size:medium;
+  color: pink;
+  padding-left: 100px ;
+  padding-right: 100px;
+  position:relative;
+  outline-width:medium;
+  outline-color: whitesmoke;
+}
+
+nav .onglets a {
+  
+    color: rgb(240, 233, 233);
+    text-decoration: none;
+  margin-right: 20px;
+  cursor:pointer;
+}
+nav .buttons button{
+  padding: 13px 20px;
+  border:none;
+  background-color: rgb(56, 53, 53);
+  font-size: 15px;
+  cursor:pointer;
+  outline:none;
+}
+nav .buttons .Acte:hover{
+  text-decoration: underline;
+  color: #e22b2b; 
+}
+nav .buttons .Accueil:hover{
+  color: rgb(247, 242, 242);
+  text-decoration: underline;
+}
+nav .buttons .Accueil{
+  color: rgb(167, 151, 151);
+  background: radial-gradient(rgb(41, 40, 41),rgb(75, 18, 35));
+  /* text-decoration-color: #141414; */
+  margin-right: 10px;
+}
+
+nav .buttons .Acte{
+  background-color: #f54266;
+}
+
+/* Fin de la barre de navigation*/
+/* .maps{
+position: relative;
+border-color: #f54266;
+} */
+/* Header */
+header{
+  margin-top: 40px;
+  background: url(../maps/maps/ACTE\ 5/pyramide.png);
+  background-repeat: no-repeat;
+  background-size: 1000px 9S00px;
+  background-position: center;
+}
+header h1{
+  text-align:center;
+  font-size: 60px;
+  padding: 150px;
+  transition: transform 2.5s;
+}
+/* Fin du header */
+
+/* Pied de page */
+footer{
+  background-color: rgba(54,53, 53, 0.63);
+  padding: 25px 100px;
+  color:#ddd5d5;
+}
+footer .colonnes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .haha:hover{
+  color: white;
+  cursor: pointer;
+}
+footer .colonnes:hover{
+  color: white;
+  cursor: pointer;
+}
+/* Fin du pied de page */
+
+@media screen and (max-width: 640px){
+  body .page{
+    margin: 10px;
+  }
+  nav .onglets{
+    display:none;
+  }
+  header{
+    margin-top: 20px;
+    background-size: 250px 250px;
+  }
+
+  header h1{
+    font-size: 30px;
+    padding: 100px;
+  }
+}
